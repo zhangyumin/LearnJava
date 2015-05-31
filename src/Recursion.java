@@ -1,7 +1,7 @@
 /**
  * Created by zym on 15-5-31.
  */
-public class recursion {
+public class Recursion {
     public static void main(String arg[]){
         System.out.println(method(5));
     }
