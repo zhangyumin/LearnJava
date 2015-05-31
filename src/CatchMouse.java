@@ -4,8 +4,8 @@
 public class CatchMouse {
 
     static class Cat {
-        static String name = "Tom";
-
+        //static String name = "Tom";
+        static String name;
         static void mew() {
             System.out.println("mew mew!");
         }
@@ -19,7 +19,7 @@ public class CatchMouse {
     }
 
     static class Mouse {
-        static String name = "Jerry";
+        static String name;
 
         void squeak() {
             System.out.println("zhi zhi!");
@@ -28,7 +28,9 @@ public class CatchMouse {
 
     public static void main(String[] args) {
         Cat Tom = new Cat();
+        Tom.name="Tom";
         Mouse Jerry = new Mouse();
+        Jerry.name="Jerry";
         Tom.CatchMouse(Jerry);
 
     }
