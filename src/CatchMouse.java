@@ -10,7 +10,7 @@ public class CatchMouse {
             System.out.println("mew mew!");
         }
 
-        void CatchMouse(Mouse mouse) {
+        void catchMouse(Mouse mouse) {
             Cat.mew();
             System.out.println("I'm " + Cat.name);
             mouse.squeak();
@@ -31,7 +31,7 @@ public class CatchMouse {
         Tom.name="Tom";
         Mouse Jerry = new Mouse();
         Jerry.name="Jerry";
-        Tom.CatchMouse(Jerry);
+        Tom.catchMouse(Jerry);
 
     }
 }
