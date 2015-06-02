@@ -14,7 +14,7 @@ public class ConstructionMethod {
         }
     }
     public static void main(String[] args){
-        Student tom = new Student(232,"Tom");
+        Student tom = new Student(2322,"Tom");
         tom.introduction();
     }
 }
