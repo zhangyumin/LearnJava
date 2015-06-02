@@ -40,5 +40,6 @@ public class TestPoint {
         point.setZ(5);
         point.display();
         point.distance();
+        point.display();
     }
 }
