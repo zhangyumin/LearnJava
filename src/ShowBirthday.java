@@ -57,6 +57,6 @@ public class ShowBirthday {
     }
 
     public void change3(BirthDate b){
-        b.setDay(22);
+        b.setDay(23);
     }
 }
