@@ -22,7 +22,7 @@ public class CatchMouse {
         static String name;
 
         void squeak() {
-            System.out.println("zhi zhi!");
+            System.out.println("zhi zhi!!");
         }
     }
 
