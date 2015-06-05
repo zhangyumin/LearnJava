@@ -6,7 +6,7 @@ public class Leaf {
     Leaf(int i){
         this.i = i;
     }
-    Leaf increament(){
+    Leaf increment(){
         i++;
         return this;
     }
@@ -15,6 +15,6 @@ public class Leaf {
     }
     public static void main(String[] args){
         Leaf leaf = new Leaf(100);
-        leaf.increament().increament().print();
+        leaf.increment().increment().print();
     }
 }
