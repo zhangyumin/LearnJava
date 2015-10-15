@@ -38,7 +38,7 @@ class BirthDate{
 public class ShowBirthday {
     public static void main(String[] args){
         ShowBirthday showBirthday = new ShowBirthday();
-        int date = 9;
+        int date = 8;
         BirthDate d1 = new BirthDate(7,7,1970);
         BirthDate d2 = new BirthDate(1,1,2000);
         showBirthday.change1(date);
