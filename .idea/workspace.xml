@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a8bfeee-745c-44fc-b081-dbbb420c7734" name="Default" comment="TestArgsWords">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BasicGeneric.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestFileInputStream.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -695,7 +694,7 @@
       <workItem from="1437535961721" duration="267000" />
       <workItem from="1437536260618" duration="16711000" />
       <workItem from="1437642203849" duration="7735000" />
-      <workItem from="1444897281377" duration="13032000" />
+      <workItem from="1444897281377" duration="13063000" />
     </task>
     <task id="LOCAL-00001" summary="first java program">
       <created>1433043933629</created>
@@ -973,11 +972,17 @@
       <option name="project" value="LOCAL" />
       <updated>1444965854164</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="BasicGeneric">
+      <created>1444984878412</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1444984878412</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79032000" />
+    <option name="totallyTimeSpent" value="79063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -1025,7 +1030,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="squeak" />
     <MESSAGE value="synchro" />
     <MESSAGE value="change word" />
     <MESSAGE value="static key word" />
@@ -1050,7 +1054,8 @@
     <MESSAGE value="HashSet" />
     <MESSAGE value="HashMap" />
     <MESSAGE value="TestArgsWords" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestArgsWords" />
+    <MESSAGE value="BasicGeneric" />
+    <option name="LAST_COMMIT_MESSAGE" value="BasicGeneric" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
