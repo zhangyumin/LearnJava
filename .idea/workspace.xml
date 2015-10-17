@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2a8bfeee-745c-44fc-b081-dbbb420c7734" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestSync.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearningJava.iws" />
@@ -713,13 +712,7 @@
       <workItem from="1437535961721" duration="267000" />
       <workItem from="1437536260618" duration="16711000" />
       <workItem from="1437642203849" duration="7735000" />
-      <workItem from="1444897281377" duration="29048000" />
-    </task>
-    <task id="LOCAL-00008" summary="practice">
-      <created>1433169303921</created>
-      <option name="number" value="00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1433169303922</updated>
+      <workItem from="1444897281377" duration="29065000" />
     </task>
     <task id="LOCAL-00009" summary="over load example">
       <created>1433169330390</created>
@@ -1009,11 +1002,17 @@
       <option name="project" value="LOCAL" />
       <updated>1445082099323</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="TestSync">
+      <created>1445082115898</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1445082115899</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95048000" />
+    <option name="totallyTimeSpent" value="95065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -1061,7 +1060,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lang.equals" />
     <MESSAGE value="objecttransconformation" />
     <MESSAGE value="polymoph" />
     <MESSAGE value="interface" />
@@ -1086,7 +1084,8 @@
     <MESSAGE value="TestInterrupt" />
     <MESSAGE value="TestJoin" />
     <MESSAGE value="DeadLock" />
-    <option name="LAST_COMMIT_MESSAGE" value="DeadLock" />
+    <MESSAGE value="TestSync" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestSync" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
