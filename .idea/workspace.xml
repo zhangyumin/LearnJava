@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a8bfeee-745c-44fc-b081-dbbb420c7734" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MultiFrame.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestPanel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -736,13 +735,7 @@
       <workItem from="1437536260618" duration="16711000" />
       <workItem from="1437642203849" duration="7735000" />
       <workItem from="1444897281377" duration="34494000" />
-      <workItem from="1445225217835" duration="2366000" />
-    </task>
-    <task id="LOCAL-00013" summary="change date">
-      <created>1433248321694</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1433248321694</updated>
+      <workItem from="1445225217835" duration="2382000" />
     </task>
     <task id="LOCAL-00014" summary="display method">
       <created>1433248366556</created>
@@ -1032,11 +1025,17 @@
       <option name="project" value="LOCAL" />
       <updated>1445225284657</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="MultiFrame">
+      <created>1445244024322</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1445244024322</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102860000" />
+    <option name="totallyTimeSpent" value="102876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -1084,7 +1083,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="interface" />
     <MESSAGE value="exception" />
     <MESSAGE value="args" />
     <MESSAGE value="bubbleSort" />
@@ -1109,7 +1107,8 @@
     <MESSAGE value="TestSync" />
     <MESSAGE value="TT" />
     <MESSAGE value="Producer&amp;Consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Producer&amp;Consumer" />
+    <MESSAGE value="MultiFrame" />
+    <option name="LAST_COMMIT_MESSAGE" value="MultiFrame" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
