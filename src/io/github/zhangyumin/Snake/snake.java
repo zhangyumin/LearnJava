@@ -18,11 +18,13 @@ public class snake {
     private Node head = null;
     private Node tail = null;
     private Node n = new Node(25,25,dir.L);
+    private place p;
 
-    public snake(){
+    public snake(place p){
         tail = n;
         head = n;
         size = 1;
+        this.p = p;
     }
     public void addToTail(){
         Node node = null;
@@ -78,7 +80,7 @@ public class snake {
         if(size <= 0){
             return;
         }
-        for(Node n = tail; n!=null; n=n.next){
+        for(Node n = head; n != null; n = n.next){
             n.draw(g);
         }
         move();
@@ -88,22 +90,28 @@ public class snake {
         int key = e.getKeyCode();
         switch (key){
             case KeyEvent.VK_LEFT:
-                head.direction = dir.L;
+                if(head.direction != dir.R)
+                    head.direction = dir.L;
                 break;
             case KeyEvent.VK_RIGHT:
-                head.direction = dir.R;
+                if(head.direction != dir.L)
+                    head.direction = dir.R;
                 break;
             case KeyEvent.VK_UP:
-                head.direction = dir.U;
+                if(head.direction != dir.D)
+                    head.direction = dir.U;
                 break;
             case KeyEvent.VK_DOWN:
-                head.direction = dir.D;
+                if(head.direction != dir.U)
+                    head.direction = dir.D;
                 break;
         }
     }
     public void eat(food f){
         if(this.getRect().intersects(f.getRect())){
             f.reAppear();
+            this.addToHead();
+            p.setScore(p.getScore()+5);
         }
     }
     private Rectangle getRect(){
@@ -112,6 +120,18 @@ public class snake {
     public void move(){
         addToHead();
         deleteFromTail();
+        checkDead();
+    }
+    private void checkDead(){
+        if(head.row < 0 || head.col < 0 || head.row > place.ROWS-1 || head.col > place.COLS-1){
+            p.stop();
+
+        }
+        for(Node n = head.next; n != null; n = n.next){
+            if(head.row == n.row && head.col == n.col){
+                p.stop();
+            }
+        }
     }
 
     private class Node{
@@ -122,7 +142,7 @@ public class snake {
         Node next = null;
         Node pre = null;
 
-        public Node(int row,int col,dir dir){
+        Node(int row,int col,dir dir){
             this.col = col;
             this.row = row;
             this.direction = dir;
@@ -130,7 +150,7 @@ public class snake {
         void draw(Graphics g){
             Color c = g.getColor();
             g.setColor(Color.BLACK);
-            g.fillRect(col*place.BLOCK_SIZE, row*place.BLOCK_SIZE, w,h);
+            g.fillRect(col*place.BLOCK_SIZE, row*place.BLOCK_SIZE, w, h);
             g.setColor(c);
         }
     }

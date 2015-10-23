@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a8bfeee-745c-44fc-b081-dbbb420c7734" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/github/zhangyumin/Snake/dir.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/github/zhangyumin/Snake/food.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/github/zhangyumin/Snake/place.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/github/zhangyumin/Snake/snake.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/zhangyumin/Snake/food.java" afterPath="$PROJECT_DIR$/src/io/github/zhangyumin/Snake/food.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/zhangyumin/Snake/place.java" afterPath="$PROJECT_DIR$/src/io/github/zhangyumin/Snake/place.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/zhangyumin/Snake/snake.java" afterPath="$PROJECT_DIR$/src/io/github/zhangyumin/Snake/snake.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearningJava.iws" />
@@ -104,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/Snake/snake.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="83" column="15" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="15" />
+              <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,11 +125,11 @@
         <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/Snake/food.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,13 +139,21 @@
         <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/Snake/place.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.32640332">
-              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+              <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#926#1080#0" expanded="true" />
-                <element signature="e#1079#1080#0" expanded="true" />
-                <element signature="e#2611#2612#0" expanded="true" />
-                <element signature="e#2650#2651#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#1198#1352#0" expanded="true" />
+                <element signature="e#1351#1352#0" expanded="true" />
+                <element signature="e#2832#2833#0" expanded="true" />
+                <element signature="e#2871#2872#0" expanded="true" />
+                <element signature="e#3288#3289#0" expanded="true" />
+                <element signature="e#3327#3328#0" expanded="true" />
+                <element signature="e#3357#3358#0" expanded="true" />
+                <element signature="e#3388#3389#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -770,13 +777,7 @@
       <workItem from="1444897281377" duration="34494000" />
       <workItem from="1445225217835" duration="8764000" />
       <workItem from="1445425462068" duration="1521000" />
-      <workItem from="1445519245409" duration="6392000" />
-    </task>
-    <task id="LOCAL-00020" summary="new header file">
-      <created>1433559508988</created>
-      <option name="number" value="00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1433559508988</updated>
+      <workItem from="1445519245409" duration="11433000" />
     </task>
     <task id="LOCAL-00021" summary="new header file">
       <created>1433601684127</created>
@@ -1066,11 +1067,17 @@
       <option name="project" value="LOCAL" />
       <updated>1445564834779</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="snake">
+      <created>1445525678703</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1445525678715</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117171000" />
+    <option name="totallyTimeSpent" value="122212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -1118,7 +1125,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Collection" />
     <MESSAGE value="EnhancedFor" />
     <MESSAGE value="HashSet" />
     <MESSAGE value="HashMap" />
@@ -1143,7 +1149,8 @@
     <MESSAGE value="ButtonEvent" />
     <MESSAGE value="Plus" />
     <MESSAGE value="workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
+    <MESSAGE value="snake" />
+    <option name="LAST_COMMIT_MESSAGE" value="snake" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1511,18 +1518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/Snake/food.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/Snake/dir.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1531,10 +1526,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/Snake/food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/Snake/snake.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="15" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="15" />
+          <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1544,13 +1551,21 @@
     <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/Snake/place.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32640332">
-          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#926#1080#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#2611#2612#0" expanded="true" />
-            <element signature="e#2650#2651#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#1198#1352#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#2871#2872#0" expanded="true" />
+            <element signature="e#3288#3289#0" expanded="true" />
+            <element signature="e#3327#3328#0" expanded="true" />
+            <element signature="e#3357#3358#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -25,11 +25,11 @@ public class food {
     }
 
     public food(){
-        this(r.nextInt(place.ROWS),r.nextInt(place.COLS));
+        this(r.nextInt(place.ROWS-2)+2,r.nextInt(place.COLS));
     }
 
     public void reAppear(){
-        this.row = r.nextInt(place.ROWS);
+        this.row = r.nextInt(place.ROWS-2)+2;
         this.col = r.nextInt(place.COLS);
     }
 
