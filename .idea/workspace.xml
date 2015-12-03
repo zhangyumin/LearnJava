@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a8bfeee-745c-44fc-b081-dbbb420c7734" name="Default" comment="hello world">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/github/zhangyumin/CourseSelection/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/github/zhangyumin/Sort/TestSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/zhangyumin/CarRental/Car.java" afterPath="$PROJECT_DIR$/src/io/github/zhangyumin/CarRental/Car.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearningJava.iws" />
@@ -39,7 +37,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
+              <folding>
+                <element signature="e#542#543#0" expanded="false" />
+                <element signature="e#591#592#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,7 +70,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding />
+              <folding>
+                <element signature="e#598#599#0" expanded="false" />
+                <element signature="e#624#625#0" expanded="false" />
+                <element signature="e#659#660#0" expanded="false" />
+                <element signature="e#689#690#0" expanded="false" />
+                <element signature="e#720#721#0" expanded="false" />
+                <element signature="e#747#748#0" expanded="false" />
+                <element signature="e#787#788#0" expanded="false" />
+                <element signature="e#819#820#0" expanded="false" />
+                <element signature="e#848#849#0" expanded="false" />
+                <element signature="e#904#905#0" expanded="false" />
+                <element signature="e#996#997#0" expanded="false" />
+                <element signature="e#1025#1026#0" expanded="false" />
+                <element signature="e#1069#1070#0" expanded="false" />
+                <element signature="e#1105#1106#0" expanded="false" />
+                <element signature="e#1134#1135#0" expanded="false" />
+                <element signature="e#1216#1217#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,8 +149,8 @@
       <file leaf-file-name="TestSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/Sort/TestSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7293777">
-              <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.07814761">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
               <folding>
                 <element signature="e#1034#1042#0" expanded="true" />
               </folding>
@@ -798,13 +816,7 @@
       <workItem from="1445519245409" duration="11433000" />
       <workItem from="1445958006900" duration="1989000" />
       <workItem from="1447726704014" duration="14887000" />
-      <workItem from="1449111420715" duration="1819000" />
-    </task>
-    <task id="LOCAL-00026" summary="extends">
-      <created>1437471478510</created>
-      <option name="number" value="00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1437471478510</updated>
+      <workItem from="1449111420715" duration="1907000" />
     </task>
     <task id="LOCAL-00027" summary="overwrite">
       <created>1437481610406</created>
@@ -1094,11 +1106,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448090451658</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Sort random string">
+      <created>1449113286947</created>
+      <option name="number" value="00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1449113286948</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140907000" />
+    <option name="totallyTimeSpent" value="140995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -1146,7 +1164,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BasicGeneric" />
     <MESSAGE value="TestFileInputStream" />
     <MESSAGE value="TestBufferStream" />
     <MESSAGE value="TestDataStream" />
@@ -1171,7 +1188,8 @@
     <MESSAGE value="dada Car Rental" />
     <MESSAGE value="hello world" />
     <MESSAGE value="CourseSelection" />
-    <option name="LAST_COMMIT_MESSAGE" value="CourseSelection" />
+    <MESSAGE value="Sort random string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort random string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1482,7 +1500,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1514,7 +1535,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#598#599#0" expanded="false" />
+            <element signature="e#624#625#0" expanded="false" />
+            <element signature="e#659#660#0" expanded="false" />
+            <element signature="e#689#690#0" expanded="false" />
+            <element signature="e#720#721#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#787#788#0" expanded="false" />
+            <element signature="e#819#820#0" expanded="false" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#904#905#0" expanded="false" />
+            <element signature="e#996#997#0" expanded="false" />
+            <element signature="e#1025#1026#0" expanded="false" />
+            <element signature="e#1069#1070#0" expanded="false" />
+            <element signature="e#1105#1106#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
+            <element signature="e#1216#1217#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1556,8 +1594,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/Sort/TestSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7293777">
-          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.07814761">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
           <folding>
             <element signature="e#1034#1042#0" expanded="true" />
           </folding>
