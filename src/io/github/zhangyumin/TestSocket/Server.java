@@ -1,9 +1,6 @@
 package io.github.zhangyumin.TestSocket;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -29,6 +26,12 @@ public class Server {
             while((text = br.readLine()) != null){
                 System.out.printf("客户端信息:"+text);
             }
+            OutputStream ops = socket.getOutputStream();
+            PrintWriter pw = new PrintWriter(ops);
+            pw.write("hello , welcome!!");
+            pw.flush();
+            pw.close();
+            ops.close();
             socket.shutdownInput();
             br.close();
             isr.close();

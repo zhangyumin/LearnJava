@@ -1,8 +1,8 @@
 package io.github.zhangyumin.TestSocket;
 
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.PrintWriter;
+import jdk.internal.util.xml.impl.Input;
+
+import java.io.*;
 import java.net.Socket;
 
 /**
@@ -23,6 +23,16 @@ public class Client {
             PrintWriter pw = new PrintWriter(os);
             pw.write("用户名: admin     密码: 123");
             pw.flush();
+            InputStream is = socket.getInputStream();
+            InputStreamReader isr = new InputStreamReader(is);
+            BufferedReader br = new BufferedReader(isr);
+            String callback = null;
+            while((callback = br.readLine()) != null){
+                System.out.printf(callback);
+            }
+            br.close();
+            isr.close();
+            is.close();
             socket.shutdownOutput();
             pw.close();
             os.close();
