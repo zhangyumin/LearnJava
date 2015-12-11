@@ -30,9 +30,9 @@ public class Server {
             PrintWriter pw = new PrintWriter(ops);
             pw.write("hello , welcome!!");
             pw.flush();
+            socket.shutdownInput();
             pw.close();
             ops.close();
-            socket.shutdownInput();
             br.close();
             isr.close();
             is.close();

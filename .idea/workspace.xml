@@ -96,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/TestSocket/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.27112675">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/TestSocket/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5246479">
-              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,8 +210,8 @@
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/TestInetAddress/InetAddress.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/TestInetAddress/InetAddressTest.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/TestUrl/TestUrl.java" />
-        <option value="$PROJECT_DIR$/src/io/github/zhangyumin/TestSocket/Server.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/TestSocket/Client.java" />
+        <option value="$PROJECT_DIR$/src/io/github/zhangyumin/TestSocket/Server.java" />
       </list>
     </option>
   </component>
@@ -804,13 +804,7 @@
       <workItem from="1445958006900" duration="1989000" />
       <workItem from="1447726704014" duration="14887000" />
       <workItem from="1449111420715" duration="11948000" />
-      <workItem from="1449736744386" duration="5529000" />
-    </task>
-    <task id="LOCAL-00033" summary="polymoph">
-      <created>1437550833114</created>
-      <option name="number" value="00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1437550833114</updated>
+      <workItem from="1449736744386" duration="7817000" />
     </task>
     <task id="LOCAL-00034" summary="interface">
       <created>1437554900542</created>
@@ -1100,15 +1094,21 @@
       <option name="project" value="LOCAL" />
       <updated>1449757964741</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="socket server and client based on tcp (bug exitsts)">
+      <created>1449758494895</created>
+      <option name="number" value="00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1449758494895</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156565000" />
+    <option name="totallyTimeSpent" value="158853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1128,7 +1128,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26361185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38712972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="81" y="290" width="1301" height="303" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38712972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="81" y="290" width="1301" height="303" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1152,7 +1152,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TestThread1" />
     <MESSAGE value="TestInterrupt" />
     <MESSAGE value="TestJoin" />
     <MESSAGE value="DeadLock" />
@@ -1177,7 +1176,8 @@
     <MESSAGE value="InetAddress" />
     <MESSAGE value="Url test" />
     <MESSAGE value="socket server and client based on tcp" />
-    <option name="LAST_COMMIT_MESSAGE" value="socket server and client based on tcp" />
+    <MESSAGE value="socket server and client based on tcp (bug exitsts)" />
+    <option name="LAST_COMMIT_MESSAGE" value="socket server and client based on tcp (bug exitsts)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1566,20 +1566,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/TestSocket/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/TestSocket/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/TestSocket/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/TestSocket/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5246479">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.27112675">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

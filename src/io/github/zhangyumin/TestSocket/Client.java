@@ -23,6 +23,7 @@ public class Client {
             PrintWriter pw = new PrintWriter(os);
             pw.write("用户名: admin     密码: 123");
             pw.flush();
+            socket.shutdownOutput();
             InputStream is = socket.getInputStream();
             InputStreamReader isr = new InputStreamReader(is);
             BufferedReader br = new BufferedReader(isr);
@@ -30,12 +31,11 @@ public class Client {
             while((callback = br.readLine()) != null){
                 System.out.printf(callback);
             }
+            pw.close();
+            os.close();
             br.close();
             isr.close();
             is.close();
-            socket.shutdownOutput();
-            pw.close();
-            os.close();
             socket.close();
         } catch (IOException e) {
             e.printStackTrace();
