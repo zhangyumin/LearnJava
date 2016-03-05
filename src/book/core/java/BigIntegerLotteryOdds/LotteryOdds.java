@@ -1,5 +1,7 @@
-package book.core.java.LotteryOdds;
+package book.core.java.BigIntegerLotteryOdds;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
@@ -10,7 +12,7 @@ import java.util.Scanner;
  * // ░▓█▒  ░▓▓█  ░██░▒▓▓▄ ▄██▒▓██ █▄        ██╔══██╗██║   ██║██║   ██║
  * // ░▒█░   ▒▒█████▓ ▒ ▓███▀ ░▒██▒ █▄       ██████╔╝╚██████╔╝╚██████╔╝
  * //  ▒ ░   ░▒▓▒ ▒ ▒ ░ ░▒ ▒  ░▒ ▒▒ ▓▒       ╚═════╝  ╚═════╝  ╚═════╝
- * Created by zym on 16-3-3.
+ * Created by zym on 16-3-4.
  */
 public class LotteryOdds {
     public static void main(String[] args) {
@@ -22,14 +24,16 @@ public class LotteryOdds {
         System.out.println("How many numbers do you have to choose?");
         int k = scanner.nextInt();
 
-        int bottom =1, top = 1;
-        for(int i = 1; i <= k ; i++){
-            bottom *= (n - i + 1);
+        BigInteger top = BigInteger.valueOf(1);
+        BigInteger bottom = BigInteger.valueOf(1);
+
+        for(int i = 1; i <= k; i++){
+            bottom = bottom.multiply(BigInteger.valueOf(n - i + 1));
             if(i <= k){
-                top *= (i);
+                top = top.multiply(BigInteger.valueOf(i));
             }
         }
-        double rate = top * 1.0 / bottom;
+        BigInteger rate = bottom.divide(top);
         System.out.printf("Your odds are "+rate);
     }
 }

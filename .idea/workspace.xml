@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a8bfeee-745c-44fc-b081-dbbb420c7734" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/DoubleInt/DoubleInt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/GetPointCode/GetPointCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/HelloWorld/HelloWorld.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/InputTest/InputTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/HelloWorld/book/core/java/IntToFloat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/IntToFloat/IntToFloat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/LotteryOdds/LotteryOdds.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/Retirement/Retirement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/Retirement2/Retirement2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/Test/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/LotteryDrawing/LotteryDrawing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/BigIntegerLotteryOdds/LotteryOdds.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/book/core/java/LotteryOdds/LotteryOdds.java" afterPath="$PROJECT_DIR$/src/book/core/java/LotteryOdds/LotteryOdds.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearningJava.iws" />
@@ -40,29 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/poker/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/book/core/java/HelloWorld/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IntToFloat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/book/core/java/IntToFloat/IntToFloat.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,12 +105,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LotteryOdds.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LotteryOdds.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/book/core/java/LotteryOdds/LotteryOdds.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20774648">
-              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LotteryDrawing.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/book/core/java/LotteryDrawing/LotteryDrawing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42957747">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LotteryOdds.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/book/core/java/BigIntegerLotteryOdds/LotteryOdds.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,6 +147,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="zym" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -166,8 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TestBufferStream.java" />
-        <option value="$PROJECT_DIR$/src/TestTransForm.java" />
         <option value="$PROJECT_DIR$/src/TestDataStream.java" />
         <option value="$PROJECT_DIR$/src/TestPrintStream.java" />
         <option value="$PROJECT_DIR$/src/TestThread1.java" />
@@ -216,7 +211,9 @@
         <option value="$PROJECT_DIR$/src/book/core/java/Retirement/Retirement.java" />
         <option value="$PROJECT_DIR$/src/book/core/java/Retirement2/Retirement2.java" />
         <option value="$PROJECT_DIR$/src/book/core/java/Test/Test.java" />
+        <option value="$PROJECT_DIR$/src/book/core/java/BigIntegerLotteryOdds/LotteryOdds.java" />
         <option value="$PROJECT_DIR$/src/book/core/java/LotteryOdds/LotteryOdds.java" />
+        <option value="$PROJECT_DIR$/src/book/core/java/LotteryDrawing/LotteryDrawing.java" />
       </list>
     </option>
   </component>
@@ -373,6 +370,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LotteryDrawing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BigIntegerLotteryOdds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -411,47 +452,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
-  <component name="RunManager" selected="Application.LotteryOdds">
-    <configuration default="false" name="DoubleInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="book.core.java.DoubleInt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="book.core.java.DoubleInt.DoubleInt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearningJava" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Retirement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="book.core.java.Retirement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="book.core.java.Retirement.Retirement" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearningJava" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.LotteryDrawing">
     <configuration default="false" name="Retirement2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -500,6 +501,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="book.core.java.LotteryOdds.LotteryOdds" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LotteryOdds (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="book.core.java.BigIntegerLotteryOdds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="book.core.java.BigIntegerLotteryOdds.LotteryOdds" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LotteryDrawing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="book.core.java.LotteryDrawing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="book.core.java.LotteryDrawing.LotteryDrawing" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -762,19 +803,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DoubleInt" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Retirement" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Retirement2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LotteryOdds" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Retirement2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LotteryOdds" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LotteryOdds (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LotteryDrawing" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LotteryOdds" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Retirement2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Retirement" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DoubleInt" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LotteryDrawing" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LotteryOdds (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LotteryOdds" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Retirement2" />
       </list>
     </recent_temporary>
   </component>
@@ -811,13 +852,7 @@
       <workItem from="1449111420715" duration="11948000" />
       <workItem from="1449736744386" duration="9040000" />
       <workItem from="1456753755030" duration="599000" />
-      <workItem from="1456907332433" duration="12769000" />
-    </task>
-    <task id="LOCAL-00035" summary="exception">
-      <created>1437569297989</created>
-      <option name="number" value="00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1437569297989</updated>
+      <workItem from="1456907332433" duration="19015000" />
     </task>
     <task id="LOCAL-00036" summary="args">
       <created>1437572344788</created>
@@ -1107,15 +1142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1449803749924</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="learning java">
+      <created>1457054014017</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1457054014017</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173444000" />
+    <option name="totallyTimeSpent" value="179690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1135,7 +1176,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26361185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38712972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="81" y="290" width="1301" height="303" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38712972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="81" y="290" width="1301" height="303" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1159,7 +1200,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TestInterrupt" />
     <MESSAGE value="TestJoin" />
     <MESSAGE value="DeadLock" />
     <MESSAGE value="TestSync" />
@@ -1184,7 +1224,8 @@
     <MESSAGE value="Url test" />
     <MESSAGE value="socket server and client based on tcp (bug exitsts)" />
     <MESSAGE value="socket server and client based on tcp" />
-    <option name="LAST_COMMIT_MESSAGE" value="socket server and client based on tcp" />
+    <MESSAGE value="learning java" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1197,20 +1238,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TestDataStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestTransForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1576,10 +1603,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/core/java/BigIntegerLotteryOdds/LotteryOdds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/book/core/java/LotteryOdds/LotteryOdds.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20774648">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/core/java/LotteryDrawing/LotteryDrawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42957747">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding />
         </state>
       </provider>

@@ -1,4 +1,4 @@
-package book.core.java.LotteryOdds;
+package book.core.java.LotteryDrawing;
 
 import java.util.Scanner;
 
@@ -10,26 +10,33 @@ import java.util.Scanner;
  * // ░▓█▒  ░▓▓█  ░██░▒▓▓▄ ▄██▒▓██ █▄        ██╔══██╗██║   ██║██║   ██║
  * // ░▒█░   ▒▒█████▓ ▒ ▓███▀ ░▒██▒ █▄       ██████╔╝╚██████╔╝╚██████╔╝
  * //  ▒ ░   ░▒▓▒ ▒ ▒ ░ ░▒ ▒  ░▒ ▒▒ ▓▒       ╚═════╝  ╚═════╝  ╚═════╝
- * Created by zym on 16-3-3.
+ * Created by zym on 16-3-4.
  */
-public class LotteryOdds {
+public class LotteryDrawing {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("How many numbers in total?");
-        int n = scanner.nextInt();
-
-        System.out.println("How many numbers do you have to choose?");
+        System.out.println("How many numbers do you want to draw?");
         int k = scanner.nextInt();
 
-        int bottom =1, top = 1;
-        for(int i = 1; i <= k ; i++){
-            bottom *= (n - i + 1);
-            if(i <= k){
-                top *= (i);
-            }
+        System.out.println("what is the highest number?");
+        int n = scanner.nextInt();
+
+        int result[] = new int[k];
+        int numbers[] = new int[n];
+        for(int i = 0;i < n; i++){
+            numbers[i] = i;
         }
-        double rate = top * 1.0 / bottom;
-        System.out.printf("Your odds are "+rate);
+
+        int i = 0;
+        while(k > 0){
+            int number = (int)(n * Math.random());
+            result[i] = numbers[number];
+            i++;
+            k--;
+        }
+        for(int a : result){
+            System.out.println(a);
+        }
     }
 }
