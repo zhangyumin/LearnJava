@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a8bfeee-745c-44fc-b081-dbbb420c7734" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/ClassTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/Inheritance/ManagerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearningJava.iws" />
@@ -862,13 +860,7 @@
       <workItem from="1449111420715" duration="11948000" />
       <workItem from="1449736744386" duration="9040000" />
       <workItem from="1456753755030" duration="599000" />
-      <workItem from="1456907332433" duration="41180000" />
-    </task>
-    <task id="LOCAL-00038" summary="count3quit1">
-      <created>1437649906037</created>
-      <option name="number" value="00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1437649906037</updated>
+      <workItem from="1456907332433" duration="41187000" />
     </task>
     <task id="LOCAL-00039" summary="binarySearch">
       <created>1437654315405</created>
@@ -1158,11 +1150,17 @@
       <option name="project" value="LOCAL" />
       <updated>1457189917263</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="learning java">
+      <created>1457264280838</created>
+      <option name="number" value="00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1457264280838</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201855000" />
+    <option name="totallyTimeSpent" value="201862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
