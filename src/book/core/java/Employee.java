@@ -3,7 +3,7 @@ package book.core.java;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-public class Employee implements Comparable<Employee>{
+public class Employee implements Comparable<Employee>,Cloneable{
     private static int nextId = 0;
     private int id;
     private final String name;
@@ -24,6 +24,7 @@ public class Employee implements Comparable<Employee>{
 
         this.name = name;
         this.salary = salary;
+        hireDate = new Date();
     }
 
     public static int getNextId(){
@@ -47,12 +48,28 @@ public class Employee implements Comparable<Employee>{
         return hireDate;
     }
 
+    public void setHireDate(int year, int month, int day) {
+        Date newHireDay = new GregorianCalendar(year, month - 1, day).getTime();
+        hireDate.setTime(newHireDay.getTime());
+    }
+
     public void addSalary(double rate){
         this.salary = salary*(1 + rate * 1.0 / 100);
+    }
+
+    public Employee clone() throws CloneNotSupportedException{
+        Employee cloned = (Employee) super.clone();
+        cloned.hireDate = (Date) hireDate.clone() ;
+        return cloned;
     }
 
     @Override
     public int compareTo(Employee o) {
         return Double.compare(salary, o.salary);
+    }
+
+    @Override
+    public String toString() {
+        return "Employee[name=" + name + ",salary=" + salary + ",hireDate=" + hireDate + "]";
     }
 }
