@@ -18,8 +18,9 @@ import java.util.Date;
  */
 public class InnerClassTest {
     public static void main(String[] args) {
-        TalkingClock clock = new TalkingClock(1000, true);
-        clock.start();
+//        TalkingClock clock = new TalkingClock(1000, true);
+        TalkingClock clock = new TalkingClock();
+        clock.start(1000, true);
 
         JOptionPane.showMessageDialog(null, "Quit program?");
         System.exit(0);
@@ -30,26 +31,24 @@ class TalkingClock{
     private int internal;
     private boolean beep;
 
-    public TalkingClock(int internal, boolean beep) {
-        this.internal = internal;
-        this.beep = beep;
-    }
+//    public TalkingClock(int internal, boolean beep) {
+//        this.internal = internal;
+//        this.beep = beep;
+//    }
 
-    public void start(){
+    public void start(int internal, final boolean beep){
+        class TimePrinter implements ActionListener{
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Date now = new Date();
+                System.out.println("At the tone, the time is " + now);
+                if(beep){
+                    Toolkit.getDefaultToolkit().beep();
+                }
+            }
+        }
         ActionListener listener = new TimePrinter();
         Timer t = new Timer(internal, listener);
         t.start();
-    }
-
-    public class TimePrinter implements ActionListener{
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            Date now = new Date();
-            System.out.println("At the tone, the time is " + now);
-            if(beep){
-                Toolkit.getDefaultToolkit().beep();
-            }
-        }
     }
 }
