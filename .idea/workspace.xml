@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a8bfeee-745c-44fc-b081-dbbb420c7734" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/StackTrace/StackTraceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/book/core/java/Logging/LoggingImageViewer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearningJava.iws" />
@@ -31,16 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CloneTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/book/core/java/Clone/CloneTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TimerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/book/core/java/Timer/TimerTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,11 +96,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackTraceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StackTraceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/book/core/java/StackTrace/StackTraceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9049296">
+            <state vertical-scroll-proportion="0.0">
               <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoggingImageViewer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/book/core/java/Logging/LoggingImageViewer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3630#3631#0" expanded="true" />
+                <element signature="e#3738#3739#0" expanded="true" />
+                <element signature="e#3787#3788#0" expanded="true" />
+                <element signature="e#3846#3847#0" expanded="true" />
+                <element signature="e#4854#4855#0" expanded="true" />
+                <element signature="e#4924#4925#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LearningJava.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LearningJava.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -133,22 +151,6 @@
               <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/book/core/java/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1600#1601#0" expanded="true" />
-                <element signature="e#1655#1656#0" expanded="true" />
-                <element signature="e#1701#1702#0" expanded="true" />
-                <element signature="e#1801#1802#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/io/github/zhangyumin/People/TestPeople.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/CarRental/Initial.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/CarRental/Car.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/CourseSelection/Student.java" />
@@ -231,6 +232,7 @@
         <option value="$PROJECT_DIR$/src/book/core/java/StaticInnerClass/StaticInnerClass.java" />
         <option value="$PROJECT_DIR$/src/book/core/java/Proxy/ProxyTest.java" />
         <option value="$PROJECT_DIR$/src/book/core/java/StackTrace/StackTraceTest.java" />
+        <option value="$PROJECT_DIR$/src/book/core/java/Logging/LoggingImageViewer.java" />
       </list>
     </option>
   </component>
@@ -365,6 +367,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Logging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoggingImageViewer.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -403,27 +431,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
-  <component name="RunManager" selected="Application.StackTraceTest">
-    <configuration default="false" name="InnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="book.core.java.InnerClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="book.core.java.InnerClass.InnerClassTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearningJava" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.LoggingImageViewer">
     <configuration default="false" name="AnonymousInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -492,6 +500,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="book.core.java.StackTrace.StackTraceTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LoggingImageViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="book.core.java.Logging.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="book.core.java.Logging.LoggingImageViewer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -754,19 +782,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.InnerClassTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AnonymousInnerClass" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StaticInnerClass" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ProxyTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StackTraceTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.AnonymousInnerClass" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StaticInnerClass" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ProxyTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StackTraceTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LoggingImageViewer" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StackTraceTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ProxyTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StaticInnerClass" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AnonymousInnerClass" />
-        <item index="4" class="java.lang.String" itemvalue="Application.InnerClassTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LoggingImageViewer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StackTraceTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ProxyTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StaticInnerClass" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AnonymousInnerClass" />
       </list>
     </recent_temporary>
   </component>
@@ -803,13 +831,7 @@
       <workItem from="1449111420715" duration="11948000" />
       <workItem from="1449736744386" duration="9040000" />
       <workItem from="1456753755030" duration="599000" />
-      <workItem from="1456907332433" duration="73178000" />
-    </task>
-    <task id="LOCAL-00053" summary="TestThread1">
-      <created>1445067304842</created>
-      <option name="number" value="00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1445067304842</updated>
+      <workItem from="1456907332433" duration="75780000" />
     </task>
     <task id="LOCAL-00054" summary="TestInterrupt">
       <created>1445067321474</created>
@@ -1099,15 +1121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1457443722203</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="stack trace">
+      <created>1457492093553</created>
+      <option name="number" value="00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1457492093553</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233853000" />
+    <option name="totallyTimeSpent" value="236455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1128,7 +1156,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26361185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959569" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38712972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="81" y="290" width="1301" height="303" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38712972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="81" y="290" width="1301" height="303" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1151,7 +1179,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ActionEvent" />
     <MESSAGE value="ButtonEvent" />
     <MESSAGE value="Plus" />
     <MESSAGE value="workspace" />
@@ -1176,7 +1203,8 @@
     <MESSAGE value="anonymous inner class" />
     <MESSAGE value="static inner class" />
     <MESSAGE value="proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="proxy" />
+    <MESSAGE value="stack trace" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack trace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1189,20 +1217,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/inherit/TestInherit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/overwrite/TestOverWrite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/zhangyumin/CarRental/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1470,10 +1484,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           <folding>
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#908#909#0" expanded="false" />
+            <element signature="e#1023#1024#0" expanded="false" />
+            <element signature="e#1065#1066#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1570,7 +1584,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1580,11 +1594,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1600#1601#0" expanded="true" />
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1801#1802#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1600#1601#0" expanded="false" />
+            <element signature="e#1655#1656#0" expanded="false" />
+            <element signature="e#1701#1702#0" expanded="false" />
+            <element signature="e#1801#1802#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1680,8 +1694,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/book/core/java/StackTrace/StackTraceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9049296">
+        <state vertical-scroll-proportion="0.0">
           <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/core/java/Logging/LoggingImageViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3630#3631#0" expanded="true" />
+            <element signature="e#3738#3739#0" expanded="true" />
+            <element signature="e#3787#3788#0" expanded="true" />
+            <element signature="e#3846#3847#0" expanded="true" />
+            <element signature="e#4854#4855#0" expanded="true" />
+            <element signature="e#4924#4925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningJava.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
