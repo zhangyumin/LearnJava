@@ -1,4 +1,4 @@
-package book.designpattern.headfirst.MiniDuckSimulatorV1;
+package book.designpattern.headfirst.MiniDuckSimulator;
 
 /**
  * //
