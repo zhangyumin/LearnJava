@@ -1,4 +1,8 @@
-package book.designpattern.headfirst.WeatherStationSimulator;
+package book.core.java.Shuffle;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * //
@@ -8,13 +12,17 @@ package book.designpattern.headfirst.WeatherStationSimulator;
  * // ░▓█▒  ░▓▓█  ░██░▒▓▓▄ ▄██▒▓██ █▄        ██╔══██╗██║   ██║██║   ██║
  * // ░▒█░   ▒▒█████▓ ▒ ▓███▀ ░▒██▒ █▄       ██████╔╝╚██████╔╝╚██████╔╝
  * //  ▒ ░   ░▒▓▒ ▒ ▒ ░ ░▒ ▒  ░▒ ▒▒ ▓▒       ╚═════╝  ╚═════╝  ╚═════╝
- * Created by joker on 16-5-11.
+ * Created by zym on 16-5-11.
  */
-public class WeatherStationSimulator {
+public class ShuffleTest {
     public static void main(String[] args) {
-        WeatherData wd = new WeatherData();
-        CurrentConditionDisplay cdd = new CurrentConditionDisplay(wd);
-        wd.setMeasure(27.5f,50.1f ,3.9f);
-        wd.measureChanged();
+        List<Integer> numbers = new ArrayList<>();
+        for (int i = 1; i < 50; i++) {
+            numbers.add(i);
+        }
+        Collections.shuffle(numbers);
+        List<Integer> winingCombination = numbers.subList(0,6);
+        Collections.sort(winingCombination);
+        System.out.println(winingCombination);
     }
 }
