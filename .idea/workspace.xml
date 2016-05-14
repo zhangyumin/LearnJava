@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a8bfeee-745c-44fc-b081-dbbb420c7734" name="Default" comment="update">
+    <list default="true" id="2a8bfeee-745c-44fc-b081-dbbb420c7734" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearningJava.iws" />
@@ -116,8 +116,8 @@
       <file leaf-file-name="ForkJoinTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/book/core/java/ForkJoin/ForkJoinTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28471002">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.7275923">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#984#985#0" expanded="true" />
@@ -296,6 +296,48 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="LearningJava" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhangyumin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -750,13 +792,7 @@
       <workItem from="1461838593188" duration="5831000" />
       <workItem from="1462592325841" duration="1500000" />
       <workItem from="1462762721584" duration="1158000" />
-      <workItem from="1462973003226" duration="15628000" />
-    </task>
-    <task id="LOCAL-00078" summary="card game">
-      <created>1449291158091</created>
-      <option name="number" value="00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1449291158091</updated>
+      <workItem from="1462973003226" duration="15696000" />
     </task>
     <task id="LOCAL-00079" summary="InetAddress">
       <created>1449738977300</created>
@@ -1046,11 +1082,17 @@
       <option name="project" value="LOCAL" />
       <updated>1463147595819</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="update">
+      <created>1463319170756</created>
+      <option name="number" value="00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1463319170756</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281102000" />
+    <option name="totallyTimeSpent" value="281170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -1117,7 +1159,6 @@
     <MESSAGE value="leetcode" />
     <MESSAGE value="MovingZeros" />
     <MESSAGE value="MiniDuckSimulator version 1.0 in page 16" />
-    <MESSAGE value="update" />
     <MESSAGE value="Bounce ball" />
     <MESSAGE value="Bounce" />
     <MESSAGE value="Unsynch Bank" />
@@ -1125,7 +1166,8 @@
     <MESSAGE value="number of founded files" />
     <MESSAGE value="Thread Pool" />
     <MESSAGE value="Fork join" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fork join" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1528,8 +1570,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/book/core/java/ForkJoin/ForkJoinTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28471002">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.7275923">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#984#985#0" expanded="true" />
