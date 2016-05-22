@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a8bfeee-745c-44fc-b081-dbbb420c7734" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/BigIntegerMultiple/BigIntegerMultiple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/Factorial/Factorial.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/InversionNumber/InversionNumber.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithm/BigIntegerMultiple/BigIntegerMultiple.java" afterPath="$PROJECT_DIR$/src/algorithm/BigIntegerMultiple/BigIntegerMultiple.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearningJava.iws" />
@@ -125,11 +126,21 @@
       <file leaf-file-name="BigIntegerMultiple.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithm/BigIntegerMultiple/BigIntegerMultiple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50615114">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.6643234">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Factorial.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/Factorial/Factorial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/io/github/zhangyumin/TrangleTest/TrangleTest.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/HanoiTower/HanoiTowerTest.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/HanoiTower/Hanoi.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/ReverseString/ReverseString.java" />
@@ -211,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/algorithm/LeastCommonMultiple/LeastCommonMultiple.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Sort/Sort.java" />
         <option value="$PROJECT_DIR$/src/algorithm/InversionNumber/InversionNumber.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/Factorial/Factorial.java" />
         <option value="$PROJECT_DIR$/src/algorithm/BigIntegerMultiple/BigIntegerMultiple.java" />
       </list>
     </option>
@@ -323,6 +334,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Factorial" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -803,13 +836,7 @@
       <workItem from="1462762721584" duration="1158000" />
       <workItem from="1462973003226" duration="17135000" />
       <workItem from="1463738742065" duration="14577000" />
-      <workItem from="1463901348925" duration="5104000" />
-    </task>
-    <task id="LOCAL-00084" summary="learning java">
-      <created>1457054014017</created>
-      <option name="number" value="00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1457054014017</updated>
+      <workItem from="1463901348925" duration="5519000" />
     </task>
     <task id="LOCAL-00085" summary="learning java">
       <created>1457154880284</created>
@@ -1099,11 +1126,17 @@
       <option name="project" value="LOCAL" />
       <updated>1463905131866</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="51nod 1027">
+      <created>1463906469060</created>
+      <option name="number" value="00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1463906469060</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="302290000" />
+    <option name="totallyTimeSpent" value="302705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1153,7 +1186,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="anonymous inner class" />
     <MESSAGE value="static inner class" />
     <MESSAGE value="proxy" />
     <MESSAGE value="stack trace" />
@@ -1178,7 +1210,8 @@
     <MESSAGE value="51nod 1011" />
     <MESSAGE value="51nod 1012" />
     <MESSAGE value="51nod 1018" />
-    <option name="LAST_COMMIT_MESSAGE" value="51nod 1018" />
+    <MESSAGE value="51nod 1027" />
+    <option name="LAST_COMMIT_MESSAGE" value="51nod 1027" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1554,10 +1587,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/Factorial/Factorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/BigIntegerMultiple/BigIntegerMultiple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50615114">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.6643234">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
