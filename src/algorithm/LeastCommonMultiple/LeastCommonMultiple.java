@@ -1,5 +1,6 @@
-package algorithm.GreatestCommonDivisor;
+package algorithm.LeastCommonMultiple;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
@@ -12,21 +13,18 @@ import java.util.Scanner;
  * //  ▒ ░   ░▒▓▒ ▒ ▒ ░ ░▒ ▒  ░▒ ▒▒ ▓▒       ╚═════╝  ╚═════╝  ╚═════╝
  * Created by zym on 16-5-22.
  *
- *
- * 输入2个正整数A，B，求A与B的最大公约数。
+ * 输入2个正整数A，B，求A与B的最小公倍数。
  * Input
  * 2个数A,B，中间用空格隔开。(1<= A,B <= 10^9)
  * Output
- * 输出A与B的最大公约数。
+ * 输出A与B的最小公倍数。
+ *
  */
-public class GreatestCommonDivisor {
-    public static void main(String[] args){
-        Scanner in = new Scanner(System.in);
-        int a = in.nextInt();
-        int b = in.nextInt();
-        int big = 0;
-        int small = 0;
-        int c = 0;
+public class LeastCommonMultiple {
+    public static long gcd(long a,long b){
+        long big = 0;
+        long small = 0;
+        long c = 0;
         if(a > b){
             big = a;
             small = b;
@@ -36,19 +34,34 @@ public class GreatestCommonDivisor {
             small = a;
         }
         if(big == small){
-            System.out.println(big);
+            return big;
         }
         else {
             c = big - small;
             while (c != small) {
                 if (c < small) {
-                    int tmp = c;
+                    long tmp = c;
                     c = small;
                     small = tmp;
                 }
                 c = c - small;
             }
-            System.out.println(c);
+            return c;
         }
+    }
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        long a = in.nextInt();
+        long b = in.nextInt();
+        long gcd = gcd(a, b);
+        long lcm = 0;
+        if(gcd != 0) {
+            lcm = a * b;
+            System.out.println(a + "*" + b + "=" +lcm);
+            lcm = lcm / gcd;
+        }else{
+            lcm = a * b;
+        }
+        System.out.println(lcm);
     }
 }
