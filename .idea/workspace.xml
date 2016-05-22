@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a8bfeee-745c-44fc-b081-dbbb420c7734" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/Sort/Sort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/BigIntegerMultiple/BigIntegerMultiple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/InversionNumber/InversionNumber.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearningJava.iws" />
@@ -31,19 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/book/core/java/Unsynch/Bank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding>
-                <element signature="e#1315#1316#0" expanded="false" />
-                <element signature="e#1353#1354#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BlockingQueueTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/book/core/java/BlockingQueue/BlockingQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,32 +102,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/Sort/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6010545">
+            <state vertical-scroll-proportion="0.0">
               <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnsynchBankTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/book/core/java/Unsynch/UnsynchBankTest.java">
+      <file leaf-file-name="InversionNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/InversionNumber/InversionNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransferRunnable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/book/core/java/Unsynch/TransferRunnable.java">
+      <file leaf-file-name="BigIntegerMultiple.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/BigIntegerMultiple/BigIntegerMultiple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="31" selection-end-column="59" />
-              <folding />
+            <state vertical-scroll-proportion="0.50615114">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,8 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/book/core/java/Map/MapTest.java" />
-        <option value="$PROJECT_DIR$/src/io/github/zhangyumin/TrangleTest.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/TrangleTest/TrangleTest.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/HanoiTower/HanoiTowerTest.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/HanoiTower/Hanoi.java" />
@@ -222,6 +210,8 @@
         <option value="$PROJECT_DIR$/src/algorithm/GreatestCommonDivisor/GreatestCommonDivisor.java" />
         <option value="$PROJECT_DIR$/src/algorithm/LeastCommonMultiple/LeastCommonMultiple.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Sort/Sort.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/InversionNumber/InversionNumber.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/BigIntegerMultiple/BigIntegerMultiple.java" />
       </list>
     </option>
   </component>
@@ -335,10 +325,6 @@
               <option name="myItemId" value="algorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -358,29 +344,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LeastCommonMultiple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GreatestCommonDivisor" />
+              <option name="myItemId" value="BigIntegerMultiple" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -426,37 +390,7 @@
       <recent name="book.designpattern.headfirst.GameSimulator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sort">
-    <configuration default="false" name="answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="answer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearningJava" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ans" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearningJava" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.BigIntegerMultiple">
     <configuration default="false" name="GreatestCommonDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -505,6 +439,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="algorithm.Sort.Sort" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="InversionNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="algorithm.InversionNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="algorithm.InversionNumber.InversionNumber" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BigIntegerMultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="algorithm.BigIntegerMultiple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="algorithm.BigIntegerMultiple.BigIntegerMultiple" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -767,19 +741,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.answer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ans" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GreatestCommonDivisor" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LeastCommonMultiple" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Sort" />
+      <item index="0" class="java.lang.String" itemvalue="Application.GreatestCommonDivisor" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LeastCommonMultiple" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Sort" />
+      <item index="3" class="java.lang.String" itemvalue="Application.InversionNumber" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BigIntegerMultiple" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Sort" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LeastCommonMultiple" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GreatestCommonDivisor" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ans" />
-        <item index="4" class="java.lang.String" itemvalue="Application.answer" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BigIntegerMultiple" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InversionNumber" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Sort" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LeastCommonMultiple" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GreatestCommonDivisor" />
       </list>
     </recent_temporary>
   </component>
@@ -829,13 +803,7 @@
       <workItem from="1462762721584" duration="1158000" />
       <workItem from="1462973003226" duration="17135000" />
       <workItem from="1463738742065" duration="14577000" />
-      <workItem from="1463901348925" duration="3774000" />
-    </task>
-    <task id="LOCAL-00083" summary="socket server and client based on tcp">
-      <created>1449803749923</created>
-      <option name="number" value="00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1449803749924</updated>
+      <workItem from="1463901348925" duration="5104000" />
     </task>
     <task id="LOCAL-00084" summary="learning java">
       <created>1457054014017</created>
@@ -1125,11 +1093,17 @@
       <option name="project" value="LOCAL" />
       <updated>1463904504071</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="51nod 1018">
+      <created>1463905131866</created>
+      <option name="number" value="00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1463905131866</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300960000" />
+    <option name="totallyTimeSpent" value="302290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1179,7 +1153,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="innerclassi" />
     <MESSAGE value="anonymous inner class" />
     <MESSAGE value="static inner class" />
     <MESSAGE value="proxy" />
@@ -1204,7 +1177,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="51nod 1011" />
     <MESSAGE value="51nod 1012" />
-    <option name="LAST_COMMIT_MESSAGE" value="51nod 1012" />
+    <MESSAGE value="51nod 1018" />
+    <option name="LAST_COMMIT_MESSAGE" value="51nod 1018" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1217,27 +1191,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/book/core/java/StaticInnerClass/StaticInnerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="54" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/book/core/java/Pair/PairTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/book/core/java/CurrentModificationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jdk1.8.0_65/src.zip!/java/util/List.java" />
     <entry file="jar:///usr/lib/jdk1.8.0_65/src.zip!/java/util/LinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/book/core/java/LinkedList/LinkedListTest.java">
@@ -1567,14 +1520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/GreatestCommonDivisor/GreatestCommonDivisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="9" selection-start-line="26" selection-start-column="8" selection-end-line="51" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/LeastCommonMultiple/LeastCommonMultiple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1587,9 +1532,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/Sort/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6010545">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/GreatestCommonDivisor/GreatestCommonDivisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="9" selection-start-line="26" selection-start-column="8" selection-end-line="51" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/InversionNumber/InversionNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/BigIntegerMultiple/BigIntegerMultiple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50615114">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
