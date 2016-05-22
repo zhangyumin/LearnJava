@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a8bfeee-745c-44fc-b081-dbbb420c7734" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/Factorial/Factorial.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/BashGame/BashGame.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithm/InversionNumber/InversionNumber.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,18 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BlockingQueueTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/book/core/java/BlockingQueue/BlockingQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="113" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FutureTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/book/core/java/Future/FutureTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -134,14 +122,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Factorial.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Factorial.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/Factorial/Factorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7469244">
-              <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BashGame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/BashGame/BashGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3040422">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/io/github/zhangyumin/HanoiTower/HanoiTowerTest.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/HanoiTower/Hanoi.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/ReverseString/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/io/github/zhangyumin/CountingBits/CountingBits.java" />
@@ -224,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/algorithm/InversionNumber/InversionNumber.java" />
         <option value="$PROJECT_DIR$/src/algorithm/BigIntegerMultiple/BigIntegerMultiple.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Factorial/Factorial.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/BashGame/BashGame.java" />
       </list>
     </option>
   </component>
@@ -379,6 +377,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BigIntegerMultiple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BashGame" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -837,13 +857,7 @@
       <workItem from="1462762721584" duration="1158000" />
       <workItem from="1462973003226" duration="17135000" />
       <workItem from="1463738742065" duration="14577000" />
-      <workItem from="1463901348925" duration="5881000" />
-    </task>
-    <task id="LOCAL-00086" summary="learning java">
-      <created>1457189917263</created>
-      <option name="number" value="00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1457189917263</updated>
+      <workItem from="1463901348925" duration="6464000" />
     </task>
     <task id="LOCAL-00087" summary="learning java">
       <created>1457264280838</created>
@@ -1133,11 +1147,17 @@
       <option name="project" value="LOCAL" />
       <updated>1463906875145</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="51nod 1057">
+      <created>1463907240225</created>
+      <option name="number" value="00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1463907240225</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303067000" />
+    <option name="totallyTimeSpent" value="303650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1187,7 +1207,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="static inner class" />
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <MESSAGE value="proxy" />
     <MESSAGE value="stack trace" />
     <MESSAGE value="log" />
@@ -1212,7 +1232,8 @@
     <MESSAGE value="51nod 1012" />
     <MESSAGE value="51nod 1018" />
     <MESSAGE value="51nod 1027" />
-    <option name="LAST_COMMIT_MESSAGE" value="51nod 1027" />
+    <MESSAGE value="51nod 1057" />
+    <option name="LAST_COMMIT_MESSAGE" value="51nod 1057" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1225,7 +1246,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jdk1.8.0_65/src.zip!/java/util/List.java" />
     <entry file="jar:///usr/lib/jdk1.8.0_65/src.zip!/java/util/LinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/book/core/java/LinkedList/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1600,11 +1620,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/Factorial/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7469244">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/BashGame/BashGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3040422">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
