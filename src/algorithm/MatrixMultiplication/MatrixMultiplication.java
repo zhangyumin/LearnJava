@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.MatrixMultiplication;
 
 import java.util.Arrays;
 import java.util.Scanner;
