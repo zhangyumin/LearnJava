@@ -1,4 +1,4 @@
-package algorithm.NumberWithoutSeven;
+package algorithm.NFOneTen;
 
 import java.util.Scanner;
 
@@ -12,23 +12,20 @@ import java.util.Scanner;
  * //  ▒ ░   ░▒▓▒ ▒ ▒ ░ ░▒ ▒  ░▒ ▒▒ ▓▒       ╚═════╝  ╚═════╝  ╚═════╝
  * Created by joker on 16-5-28.
  *
- * 一个正整数，如果它能被7整除，或者它的十进制表示法中某个位数上的数字为7，则称其为与7相关的数。求所有小于等于N的与7无关的正整数的平方和。
- * 例如：N = 8，<= 8与7无关的数包括：1 2 3 4 5 6 8，平方和为：155。
+ * 1,10,100,1000...组成序列1101001000...，求这个序列的第N位是0还是1。
  * Input
- * 第1行：一个数T，表示后面用作输入测试的数的数量。（1 <= T <= 1000)
- * 第2 - T + 1行：每行1个数N。（1 <= N <= 10^6)
+ * 第1行：一个数T，表示后面用作输入测试的数的数量。（1 <= T <= 10000)
+ * 第2 - T + 1行：每行1个数N。（1 <= N <= 10^9)
  * Output
- * 共T行，每行一个数，对应T个测试的计算结果。
+ * 共T行，如果该位是0，输出0，如果该位是1，输出1。
  */
-public class NumberWithoutSeven {
+public class OneTen {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();
         for (int i = 0; i < t; i++) {
             int n = in.nextInt();
-            for (int j = 0; j < n; j++) {
 
-            }
         }
     }
 }
