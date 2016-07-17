@@ -23,10 +23,12 @@ public class QuickSort {
                 while (low < high && a[high] > key) {
                     high--;
                 }
+                System.out.println("1. " + a[low] + " = " + a[high]);
                 a[low] = a[high];
                 while (low < high && a[low] < key) {
                     low++;
                 }
+                System.out.println("2. " + a[high] + " = " + a[low]);
                 a[high] = a[low];
             }
             a[low] = key;
@@ -38,6 +40,7 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int[] bubbleArray = new int[]{12,4,22,45,8,27,13,33};
+        System.out.println(Arrays.toString(bubbleArray));
         QuickSort q = new QuickSort();
         q.QuickSortExec(bubbleArray, 0, bubbleArray.length - 1);
     }
