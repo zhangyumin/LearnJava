@@ -16,7 +16,7 @@ public class TestThread1 {
 //        Thread t = new Thread(r);
 //        t.start();
         for(int i=0; i<100; i++){
-            System.out.println("Main thread:-----------"+i);
+            System.out.println("WordMaze thread:-----------"+i);
         }
     }
 }
