@@ -1,7 +1,7 @@
 package io.github.zhangyumin.Node;
 
 public class LinkList{
-    public Node first;
+    private Node first;
     private int pos = 0;
 
     public LinkList(){
